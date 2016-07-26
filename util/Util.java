@@ -11,7 +11,7 @@ public class Util {
 	}
 	
 	
-	public static boolean validaton (Object[] array, int leftIndex, int rightIndex){
+	public static boolean validation (Object[] array, int leftIndex, int rightIndex){
 		if(array == null)
 			return false;
 		
