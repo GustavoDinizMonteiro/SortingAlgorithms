@@ -34,5 +34,15 @@ public class MergeSort<T extends Comparable<T>> extends AbstractSorting<T> {
 			}
 			k++;
 		}
+		
+		while (i <= midlle) {
+			array[k] = helper[i];
+			i++; k++;
+		}
+		
+		while (j <= end) {
+			array[k] = helper[j];
+			j++; k++;
+		}
 	}
 }
